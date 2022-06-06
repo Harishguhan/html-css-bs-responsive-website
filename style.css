@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    z-index: 1;
+}
+.navbar-brand span{
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: black;
+    font-size: 30px !important;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+.navbar{
+    background-color: #fbf9fb;
+}
+.navbar-brand:hover{
+    color: orange;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    /* border-bottom: 2px solid white; */
+}
+.nav-link:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.nav-item{
+    padding: 0 5px;
+}
+.btn{
+    color: white !important;
+    background-color: orange !important;
+    border-radius: 10px !important;
+    font-weight: bold !important;
+    border:2px solid orange !important;
+}
+.home{
+    background-image: url('images/carousel.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.home h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+}
+.home h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 10px; 
+    color: orange;
+    text-shadow: 2px 2px 3px orange;
+}
+.home .btn{
+    margin-top: 10px;
+}
+.about h5{
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.about h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.courses h4{
+    letter-spacing: 3px;
+    color: orange;
+    font-weight: bold;
+}
+.courses h1{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 3px orange;
+}
+.box{
+    background-image: url('images/card1.jpg');
+    padding: 30px 30px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    color:white;
+    filter: grayscale(100%);
+}
+.box h5{
+    font-weight: bold;
+}
+.cour h4{
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.cour h1{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 3px orange;
+}
+.fa-users{
+    color: orange;
+    font-size: 15px;
+    padding-right: 8px;
+}
+.fa-clock{
+    color: orange;
+    padding-right: 8px;
+}
+.card{
+    transition: 1s;
+}
+.card h5:hover{
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fa-star{
+    color: orange;
+    padding-right: 8px;
+}
+.card p{
+    font-weight: bold ;
+}
+.card:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+.fa-check{
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.form{
+    background-image: url('images/form.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form h5{
+    text-transform: uppercase;
+    color: orange;   
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.form h1{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px white;
+}
+.form p{
+    color: white;
+}
+.teachers h5{
+    text-align: center;
+    color: orange;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.teachers h1{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: 2px 2px 3px orange;
+}
+.teachers .card{
+    transform: scale(1,1);
+    position: relative;
+}
+.teachers .card h4{
+    text-align: center;
+    font-weight: bold;
+}
+.teachers .card p{
+    text-align: center;
+    font-weight: bold;
+}
+.teachers img:hover{
+    opacity: 0.5 ;
+}
+.fa-twitter{
+    border: 1px solid white;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.fa-facebook-f{
+    border: 1px solid white;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+    left: 130px;
+}
+.fa-linkedin-in{
+    border: 1px solid white;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}
+.fa-twitter:hover{
+    background-color: white;
+}
+.fa-facebook-f:hover{
+    background-color: white;
+}
+.fa-linkedin-in:hover{
+    background-color: white;
+}
+.teachers .icons{
+    visibility: hidden;
+}
+
+.teachers .card:hover .icons{
+    visibility: visible;
+    transition: 1s;
+}
+.blog h4{
+    color: orange;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.blog h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+.footer{
+    background-color: #372a52;
+    min-height: 60vh;
+}
+.footer h3{
+    color:orange;
+    
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.footer i{
+    padding-right: 15px;
+    font-size: 20px;
+}
+.footer p{
+    margin-top: 15px;
+    color: white;
+}
+.footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.social i{
+    padding: 0 25px;
+    color: white;
+    font-size: 35px;
+}
+
+
+/* media quries */
+
+@media  screen and (max-width:425px) {
+    .home{
+        min-height: 80vh;
+    }
+    .home h1{
+        font-size: 40px;
+    }
+    .about h1{
+        font-size: 21px;
+    }
+    .about h5{
+        text-align: center;
+    }
+    .about button{
+        margin-left: 80px;
+    }
+    .blog h1{
+        font-size: 24px;
+    }
+}
