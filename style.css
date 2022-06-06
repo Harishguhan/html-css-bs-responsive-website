@@ -290,8 +290,8 @@
 /* media quries */
 
 @media  screen and (max-width:425px) {
-    .home{
-        min-height: 80vh;
+    .home{ 
+        min-height: 80vh ;
     }
     .home h1{
         font-size: 40px;
